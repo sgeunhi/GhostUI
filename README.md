@@ -1,9 +1,12 @@
-# GhostUI: A Dataset for Predicting Hidden Interactions in Mobile Applications
+# GhostUI
+> **Hidden interactions** in mobile applications refer to specific gestures or actions, such as long-pressing or swiping, that allow users to access hidden elements or shortcuts in the user interface that are not immediately visible. The concealed nature of these interactions makes it challenging for AI agents to accurately identify and perform the required actions.
+
+**GhostUI** is the first dataset specifically designed to develop and evaluate vision-language models that can understand and execute hidden interactions in mobile applications. While existing mobile UI datasets focus primarily on visible elements and basic interactions, they fail to capture the crucial hidden interaction patterns that are essential for complete mobile app functionality. To address this gap, **GhostUI** provides a diverse collection of annotated app screenshots, covering X applications across Y domains, with over Z screenshots. Each screenshot includes gesture-specific labels and contextual instructions, helping vision-language models learn how hidden interactions are triggered and executed.
 
 ## Data
 
 
-### Dataset Format Documentation
+### Dataset Format
 - `screenshot_id`(str): unique identifier for each screenshot in UUID format 
 - `name`(str): name of the mobile application 
 - `category`(str): main category of the application
